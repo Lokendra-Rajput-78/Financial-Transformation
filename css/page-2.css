@@ -13,7 +13,6 @@ body{
 
 
 .container{
-    height: auto;
     max-width:650px;
     margin:auto;
     padding:20px;
@@ -46,7 +45,7 @@ body{
 .video-box{
     /* border-radius:10px; */
     overflow:hidden;
-    margin-bottom:25px;
+    /* margin-bottom:25px; */
     animation: fadeUp 1s ease;
 }
 
@@ -60,8 +59,8 @@ body{
     width:100%;
     background:black;
     padding:18px;
-    font-size: 12px !important;
-    font-weight:600;
+    font-size: 13px !important;
+    font-weight:700;
     color:white;
     border-radius:14px;
     border:2px solid white;
@@ -75,6 +74,15 @@ body{
     box-shadow:0 0 15px rgba(255,255,255,0.4);
 }
 
+.sub-text-1{
+    margin-bottom: 20px;
+    top:-10px;
+    font-size:12px;
+    opacity:0.9;
+    font-weight:300;
+
+}
+
 .sub-text{
     margin:20px 0;
     font-size:18px;
@@ -84,6 +92,7 @@ body{
 .warning{
     background:red;
     padding:16px;
+    
     font-size:20px;
     font-weight:600;
     border-radius:14px;
@@ -145,7 +154,7 @@ body{
     100%{transform:scale(1)}
 }
 
-@media(max-width:480px){
+@media(max-width:300px){
     body{
         padding:0;
         min-height:auto;
